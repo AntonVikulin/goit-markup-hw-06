@@ -741,7 +741,7 @@ button {
 }
 
 .form-input {
-  height: 40px;
+  height: 100%;
   width: 100%;
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -754,12 +754,7 @@ button {
   width: 18px;
   left: 12px;
   top: 50%;
-  transform: translate(-50%);
+  transform: translateY(-50%);
   background-color: var(--color-1);
   background: var(--color-2);
-}
-
-.form-icon > svg {
-  height: 18px;
-  width: 18px;
 }
