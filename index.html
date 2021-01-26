@@ -342,6 +342,25 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe">
+                <div class="subscribe">
+                    <h3 class="footer-h3">подпишитесь на рассылку</h3>
+                    <div class="subscribe-form">
+                        
+                            <label for="">
+                                <input type="email" class="subsribe-input" name="email" placeholder="E-mail">
+                            </label>
+                        
+                        <button type="button"> 
+                        <span>Подписаться</span>
+                            <svg class="subscribe-icon">
+                                <use href="./img/icon.svg#icon-send"></use>
+                            </svg>
+                        
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 
@@ -384,19 +403,21 @@
             </label>
 
             
-            <label class="form-field">
+            <label>
                 <div class="name">Комментарий</div>
-                <input type="text" class="form-input" name="name" placeholder="Введите текст">
+                <textarea name="feedback" class="feedback" placeholder="Введите текст"></textarea>
             </label>
 
-            <div class="checkbox">
-                <label for="">
-                    <input type="checkbox" name="agree">Соглашаюсь с рассылкой и принимаю
-                    <a href="">Условия договора</a>
-                </label>
-                <button type="button" class="modal-button" ><span>Отправить</span></button>
-            </div>
             
+            <label>
+                <div class="checkbox">
+                    <input type="checkbox" name="agree" class="checkbox-agree visually-hidden">Соглашаюсь с рассылкой и принимаю
+                    <div class="checkbox-icon"></div>
+                    <a href="">Условия договора</a>
+                </div>
+            </label>
+            <button type="button" class="modal-button" ><span>Отправить</span></button>
+                       
         </div>
     </div>
 
