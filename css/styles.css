@@ -730,8 +730,12 @@ button {
   background: var(--color-2);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  color: var(--color-1);
+  transition: color var(--animation-duration) var(--animation-type);
+}
+
+.modal__close > svg {
   fill: currentColor;
-  tranition: color var(--animation-duration) var(--animation-type);
 }
 
 .modal__close:hover {
@@ -788,7 +792,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
   border: none;
-  tranition: box-shadow var(--animation-duration) var(--animation-type),
+  transition: box-shadow var(--animation-duration) var(--animation-type),
     background var(--animation-duration) var(--animation-type);
 }
 
